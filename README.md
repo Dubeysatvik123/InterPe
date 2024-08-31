@@ -1,22 +1,20 @@
 Car Price Predictor
-📊 Overview
+Overview
 
-This project involves a Car Price Predictor developed using machine learning techniques and Streamlit. The goal is to predict the price of a car based on various features such as year, kilometers driven, company, and fuel type. The project demonstrates data preprocessing, model training, and the creation of an interactive user interface.
-🛠️ Features
+The Car Price Predictor is a machine learning application designed to estimate the price of a car based on its features such as year, kilometers driven, company, and fuel type. This project leverages a RandomForestRegressor model and provides an interactive user interface using Streamlit.
+Features
 
-    Data Preprocessing: Cleans and prepares the dataset by handling non-numeric values and converting categorical features into numerical representations.
-    Model Training: Utilizes a RandomForestRegressor to predict car prices, showcasing the application of machine learning algorithms.
-    Interactive UI: Built using Streamlit, allowing users to input car details and receive instant price predictions.
-    Performance Evaluation: Includes evaluation metrics like Mean Absolute Error (MAE) to assess model accuracy.
+    Data Preprocessing: Cleans and prepares the dataset, handles non-numeric values, and converts categorical features to numerical representations.
+    Machine Learning Model: Utilizes RandomForestRegressor for price prediction.
+    Interactive Web Interface: Built with Streamlit, allowing users to input car details and receive price predictions.
+    Performance Metrics: Evaluates model accuracy with Mean Absolute Error (MAE).
 
-📁 Contents
+Demo
 
-    car_price_predictor.py: The main script for training the model and creating the Streamlit app.
-    requirements.txt: Lists the Python packages required to run the project.
-    data/: Contains the dataset used for training and evaluation.
-    README.md: This file, providing an overview and instructions for the project.
+You can try out the Car Price Predictor application by accessing the live demo.
+Installation
 
-🚀 Setup
+To run this project locally, follow these steps:
 
     Clone the repository:
 
@@ -30,6 +28,13 @@ bash
 
 cd car-price-predictor
 
+Create a virtual environment (optional but recommended):
+
+bash
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
 Install the required dependencies:
 
 bash
@@ -42,14 +47,28 @@ bash
 
     streamlit run car_price_predictor.py
 
-📈 Usage
+Usage
 
-    Use the Streamlit interface to input car details such as year, kilometers driven, company, and fuel type.
-    Click on the "Predict" button to get an estimated price for the car.
+    Open the Streamlit app in your browser.
+    Input the car details such as year, kilometers driven, company, and fuel type.
+    Click the "Predict" button to get an estimated price for the car.
 
-🔗 Live Demo
+Project Structure
 
-Check out the live demo of the Car Price Predictor app here.
-📄 License
+    car_price_predictor.py: Main script for training the model and creating the Streamlit application.
+    requirements.txt: Lists the Python packages required to run the project.
+    data/: Contains the dataset used for model training and evaluation.
+    README.md: This file.
+
+License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+Acknowledgements
+
+    Internpe for providing the opportunity to work on this project.
+    Streamlit for the interactive web framework.
+    Scikit-learn for the machine learning tools.
+
+Contact
+
+For any questions or feedback, please reach out to satvikdubey268@gmail.com
