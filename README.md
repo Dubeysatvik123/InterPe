@@ -1,7 +1,6 @@
-Car Price Predictor
 Overview
 
-The Car Price Predictor is a machine learning application designed to estimate the price of a car based on its features such as year, kilometers driven, company, and fuel type. This project leverages a RandomForestRegressor model and provides an interactive user interface using Streamlit.
+The machine learning application designed to estimate the price of a car and ipl team winning based on its features such as year, kilometers driven, company, and fuel type. This project leverages a RandomForestRegressor model and provides an interactive user interface using Streamlit.
 Features
 
     Data Preprocessing: Cleans and prepares the dataset, handles non-numeric values, and converts categorical features to numerical representations.
@@ -46,7 +45,7 @@ Run the Streamlit app:
 bash
 
     streamlit run car_price_predictor.py
-
+    stremalit run ipwinning.py
 Usage
 
     Open the Streamlit app in your browser.
